@@ -1,6 +1,6 @@
 ## AskUbuntu Question Dataset
 
-This repo contains a preprocessed collection of questions taken from [AskUbuntu.com](www.askubuntu.com). It also comes with 200*20 mannual annotations, marking pairs of questions as "similar" or "non-similar".
+This repo contains a preprocessed collection of questions taken from [AskUbuntu.com](http://www.askubuntu.com). It also comes with 200*20 mannual annotations, marking pairs of questions as "similar" or "non-similar".
 
 #### Files
   - text_tokenized.txt.gz is the corpus file
