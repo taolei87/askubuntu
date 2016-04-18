@@ -8,3 +8,6 @@ This repo contains a preprocessed collection of questions taken from [AskUbuntu.
   - dev.txt and test.txt
   - heldout.txt
   - vector/vectors_pruned.200.txt.gz
+
+#### To-do
+  - better description of data
