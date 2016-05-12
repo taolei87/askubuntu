@@ -3,7 +3,7 @@
 This repo contains a preprocessed collection of questions taken from [AskUbuntu.com](http://www.askubuntu.com). It also comes with 400*20 mannual annotations, marking pairs of questions as "similar" or "non-similar".
 
 ### Reference
-[1] [Semi-supervised Question Retrieval with Gated Convolutions](http://arxiv.org/abs/1512.05726). Lei et. al. NAACL 2016
+[1] [Semi-supervised Question Retrieval with Gated Convolutions](http://arxiv.org/abs/1512.05726). NAACL 2016
 
 ### Files
   - text_tokenized.txt.gz is the corpus file
