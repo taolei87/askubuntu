@@ -35,7 +35,7 @@ The list of similar questions are user-marked duplicates in AskUbuntu. The rando
 <br>
 
 #### 3. Human annotations for evaluation ``dev.txt`` ``test.txt``
-Each line contains (1) the query question ID, (2) the list of similar question IDs, (3) the list of 20 candidate question IDs and (4) the associated BM25 scores of these questions computed by the Lucene search engine. The second field (the set of similar questions) is a subset of the third field. 
+Each line contains (1) the query question ID, (2) the list of similar question IDs, (3) the list of 20 candidate question IDs and (4) the associated BM25 scores of these questions computed by the Lucene search engine. **The second field (the set of similar questions) is a subset of the third field.** 
 ```
 501754    399513 491992 218016 50146 456861     399513 491992 218016 459246 17630 50146 144028 269913 438505 416899 428574 23596 456861 400442 23731 386606 396630 462024 313023 419839    29.87237 28.53559 28.197691 26.987028 24.890223 24.815313 24.733963 24.114239 23.958801 23.728823 23.62108 23.566372 23.409262 22.863033 22.843576 22.579468 22.531168 22.23379 22.026878 22.001768
 408066    132837 157668   219491 132837 251348 470629 279126 288347 133390 131053 261114 389546 150574 125455 51420 157668 363403 38026 354685 270025 24213 87279    36.245964 35.97274 34.907314 34.627953 34.331802 34.014793 33.55112 33.326748 33.212143 33.181896 33.129414 33.081596 32.86806 32.53924 31.769056 31.455008 31.166483 31.027262 30.502405 30.370914
