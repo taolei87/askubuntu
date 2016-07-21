@@ -2,7 +2,7 @@
 
 This repo contains a preprocessed collection of questions taken from [AskUbuntu.com](http://www.askubuntu.com) 2014 corpus dump. It also comes with 400*20 mannual annotations, marking pairs of questions as "similar" or "non-similar".
 
-The XML-format raw corpus is available on this [Google drive directory](https://drive.google.com/folderview?id=0B-btHzfJjPnobXZ0MndjSkxkRkk#list).
+The XML-format raw corpus is available at this [Google drive directory](https://drive.google.com/folderview?id=0B-btHzfJjPnobXZ0MndjSkxkRkk#list).
 
 ### Reference
 [1] [Semi-supervised Question Retrieval with Gated Convolutions](http://arxiv.org/abs/1512.05726). NAACL 2016
@@ -49,7 +49,7 @@ This file simply contains a list of question IDs that is held out from the train
 #### 5. Pre-trained word vectors ``vectors_pruned.200.txt.gz``
 We also provide a set of 200-dimension pre-trained word vectors. We used this set for our experiments. The vectors are trained using texts from StackExchange and Wikipedia. 
 
-**Note:** due to Github file size limit, the vector file in this repo is a pruned version obtained by removing words not in our AskUbuntu dataset. The full size version as well as the corpus used to train the vectors are available at on this [Google drive directory](https://drive.google.com/folderview?id=0B-btHzfJjPnobXZ0MndjSkxkRkk#list).
+**Note:** due to Github file size limit, the vector file in this repo is a pruned version obtained by removing words not in our AskUbuntu dataset. The full size version as well as the corpus used to train the vectors are available at this [Google drive directory](https://drive.google.com/folderview?id=0B-btHzfJjPnobXZ0MndjSkxkRkk#list).
 
 <br>
 
