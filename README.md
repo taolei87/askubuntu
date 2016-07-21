@@ -1,18 +1,13 @@
 ## AskUbuntu Question Dataset
 
-This repo contains a preprocessed collection of questions taken from [AskUbuntu.com](http://www.askubuntu.com). It also comes with 400*20 mannual annotations, marking pairs of questions as "similar" or "non-similar".
+This repo contains a preprocessed collection of questions taken from [AskUbuntu.com](http://www.askubuntu.com) 2014 corpus dump. It also comes with 400*20 mannual annotations, marking pairs of questions as "similar" or "non-similar".
+
+The XML-format raw corpus is available on this [Google drive directory](https://drive.google.com/folderview?id=0B-btHzfJjPnobXZ0MndjSkxkRkk#list).
 
 ### Reference
 [1] [Semi-supervised Question Retrieval with Gated Convolutions](http://arxiv.org/abs/1512.05726). NAACL 2016
 
-### Files
-  - text_tokenized.txt.gz is the corpus file
-  - train_random.txt
-  - dev.txt and test.txt
-  - heldout.txt
-  - vector/vectors_pruned.200.txt.gz
-
-### Formats
+### Files & Formats
 
 #### 1. Corpus file ``text_tokenized.txt.gz``
 Each line of the corpus file contains three fields seperated by tab "\t" -- (1) the question ID, (2) the list of words in question title, and (3) the list of words in question body. For instance:
@@ -52,11 +47,13 @@ This file simply contains a list of question IDs that is held out from the train
 <br>
 
 #### 5. Pre-trained word vectors ``vectors_pruned.200.txt.gz``
-We also provide a set of 200-dimension pre-trained word vectors. We used this set for our experiments. 
+We also provide a set of 200-dimension pre-trained word vectors. We used this set for our experiments. The vectors are trained using texts from StackExchange and Wikipedia. 
+
+**Note:** due to Github file size limit, the vector file in this repo is a pruned version obtained by removing words not in our AskUbuntu dataset. The full size version as well as the corpus used to train the vectors are available at on this [Google drive directory](https://drive.google.com/folderview?id=0B-btHzfJjPnobXZ0MndjSkxkRkk#list).
 
 <br>
 
 #### To-do
   - [x] better description of data
-  - [ ] put raw corpus in this repo ?
-  - [ ] put AskUbuntu 2015 version instead of 2014 version as additional resource ?
+  - [x] put raw corpus online
+  - [x] put AskUbuntu 2015 version (in addition to 2014 version) as additional resource
